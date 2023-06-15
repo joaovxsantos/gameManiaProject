@@ -23,11 +23,19 @@ header .header-top {
   width: var(--width--);
 }
 
-header h1 {
+/* header h1 {
   color: #02d9ff;
   background: var(--black--);
   font-weight: 400;
   padding: 5px;
+} */
+
+/* header img {
+  width: 200px;
+} */
+
+[src="./images/logo.png"] {
+  width: 200px;
 }
 
 header ul {
@@ -162,4 +170,34 @@ nav .products-line + button {
   outline: none;
   border: none;
   cursor: pointer;
+}
+
+footer {
+  background: var(--bg--header--);
+  padding: 35px 10px 0px 10px;
+}
+
+footer .footer-top {
+  text-align: center;
+  /* font-weight: 700; */
+}
+
+footer .footer-top h5 {
+  font-size: 22px;
+  margin: 6px 0 5px 0;
+}
+
+footer .footer-bottom {
+  /* background: red; */
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-bottom .contact p {
+  font-size: 18px;
+  font-weight: 700;
+}
+.footer-bottom .contact ion-icon {
+  width: 30px;
+  height: 30px;
 }
