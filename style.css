@@ -174,7 +174,7 @@ nav .products-line + button {
 
 footer {
   background: var(--bg--header--);
-  padding: 35px 10px 0px 10px;
+  padding: 35px 30px 12px 30px;
 }
 
 footer .footer-top {
@@ -188,7 +188,6 @@ footer .footer-top h5 {
 }
 
 footer .footer-bottom {
-  /* background: red; */
   display: flex;
   justify-content: space-between;
 }
@@ -197,7 +196,26 @@ footer .footer-bottom {
   font-size: 18px;
   font-weight: 700;
 }
-.footer-bottom .contact ion-icon {
+.footer-bottom ion-icon {
   width: 30px;
   height: 30px;
+}
+
+[class^="i"] {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+[class^="i"] label {
+  font-size: 22px;
+  text-decoration: underline;
+}
+
+.item1 {
+  margin: 12px 0 5px 0;
+}
+
+.footer-bottom .social-medias h6 {
+  font-size: 22px;
 }
