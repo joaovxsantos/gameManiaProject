@@ -48,7 +48,6 @@ header ul {
 header ul li,
 header ul button {
   font-weight: 600;
-  /* font-size: 18px; */
   cursor: pointer;
 }
 
@@ -95,7 +94,16 @@ section .sec-infos {
 
 section .sec-infos img {
   width: 50%;
+  /* animation: teste 2s ease infinite;
+  position: relative;
+  transition: all 1s ease; */
 }
+
+/* @keyframes teste {
+    100%{
+        top: 15px;
+    }
+} */
 
 main nav {
   display: flex;
@@ -193,7 +201,7 @@ footer .footer-bottom {
 }
 
 .footer-bottom .contact p {
-  font-size: 18px;
+  font-size: 22px;
   font-weight: 700;
 }
 .footer-bottom ion-icon {
@@ -209,7 +217,6 @@ footer .footer-bottom {
 
 [class^="i"] label {
   font-size: 22px;
-  text-decoration: underline;
 }
 
 .item1 {
