@@ -9,9 +9,8 @@
   --bg--header--: #d9d9d9;
 }
 
-header,
-section {
-  /* background:var(--bg--header--); */
+header {
+  background: var(--bg--header--);
   padding: 20px 60px;
 }
 
@@ -85,5 +84,5 @@ section .sec-infos {
 }
 
 section .sec-infos img {
-  width: calc(800px - 10%);
+  width: 50%;
 }
