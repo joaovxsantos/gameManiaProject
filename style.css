@@ -104,8 +104,62 @@ nav .nav-cards img {
   height: 260px;
 }
 
-nav .nav-cards p{
-    font-weight: 700;
-    font-size: 18px;
-    margin-top: 20px;
+nav .nav-cards p {
+  font-weight: 700;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+main h4 {
+  font-size: 22px;
+  background: var(--black--);
+  color: var(--white--);
+  padding: 10px;
+  display: inline-block;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+}
+main aside {
+  margin-top: 50px;
+}
+main aside nav {
+  flex-direction: column;
+  gap: 150px;
+}
+
+nav .products-line {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+}
+nav .products-line img {
+  width: 150px;
+}
+
+nav .products-line p {
+  font-size: 20px;
+  margin: 10px 0px 20px 0;
+  cursor: pointer;
+  border-bottom: 2px solid var(--black--);
+}
+
+nav .products-line label {
+  font-size: 20px;
+  font-weight: 700;
+  background: var(--black--);
+  color: var(--white--);
+  padding: 5px;
+}
+
+nav .products-line + button {
+  font-weight: 700;
+  background: var(--black--);
+  color: var(--white--);
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  outline: none;
+  border: none;
+  cursor: pointer;
 }
