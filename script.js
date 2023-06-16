@@ -3,9 +3,7 @@ const nav = document.querySelector('#nav');
 const products_line = document.querySelector('.products-line');
 
 
-btn.addEventListener('click', () => {
-    nav.appendChild(createDiv());
-})
+
 
 const createDiv = () => {
     let div = document.createElement('div');
@@ -16,4 +14,15 @@ const createDiv = () => {
     }
     return div;
 }
-console.log(createDiv())
+
+button.addEventListener('click', () => {
+    button = document.createElement('button')
+    nav.appendChild(createDiv(), null);
+    nav.appendChild(button);
+    console.log(nav);
+})
+
+
+
+
+// console.log(createDiv())
