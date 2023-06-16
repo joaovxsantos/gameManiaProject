@@ -12,14 +12,13 @@
 
     <header>
         <div class="header-top">
-            <!-- <h1>GameMania</h1> -->
-            <img src="./images/logo.png" alt="">
+            <a href=""><img src="./images/logo.png" alt=""></a>
             <ul>
-                <li>HOME</li>
+                <li><a class="blackColor" href="">HOME</a></li>
                 <li>SOBRE</li>
-                <li>PRODUTOS</li>
-                <li>CONTATO</li>
-                <button>LOGIN</button>
+                <li><a class="blackColor" href="#aside">PRODUTOS</a></li>
+                <li><a class="blackColor" href="#contato">CONTATO</a></li>
+                <button> <a href="./login.html" target="_blank">LOGIN</a></button>
             </ul>
         </div>
     </header>
@@ -53,7 +52,7 @@
         <h4>E MUITO MAIS!!</h4>
 
 
-        <aside>
+        <aside id="aside">
             <nav>
 
                 <div class="products-line">
@@ -129,7 +128,7 @@
         </aside>
     </main>
 
-    <footer>
+    <footer id="contato">
         <div class="footer-top">
             <img src="./images/logo.png" alt="">
             <h5>Rua Lorem ipsum</h5>
@@ -157,12 +156,14 @@
 
                 <div class="item1">
                     <ion-icon name="logo-instagram"></ion-icon>
-                    <label for="">@gamemania</label>
+                    <label for=""><a class="blackColor" href="https://www.instagram.com/"
+                            target="_blank">@gamemania</a></label>
                 </div>
 
                 <div class="item2">
                     <ion-icon name="logo-facebook"></ion-icon>
-                    <label for="">/gamemania</label>
+                    <label for=""><a class="blackColor" href="https://www.facebook.com/"
+                            target="_blank">/gamemania</a></label>
                 </div>
 
             </div>

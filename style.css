@@ -23,19 +23,9 @@ header .header-top {
   width: var(--width--);
 }
 
-/* header h1 {
-  color: #02d9ff;
-  background: var(--black--);
-  font-weight: 400;
-  padding: 5px;
-} */
-
-/* header img {
-  width: 200px;
-} */
-
 [src="./images/logo.png"] {
   width: 200px;
+  cursor: pointer;
 }
 
 header ul {
@@ -53,12 +43,15 @@ header ul button {
 
 header ul button {
   background: var(--black--);
-  color: var(--white--);
   width: 90px;
   padding: 8px 0;
   border: none;
   outline: none;
   margin-left: 10px;
+}
+
+ul button a {
+  color: var(--white--);
 }
 
 section {
@@ -94,16 +87,26 @@ section .sec-infos {
 
 section .sec-infos img {
   width: 50%;
-  /* animation: teste 2s ease infinite;
+  animation: teste 1s linear alternate infinite;
   position: relative;
-  transition: all 1s ease; */
 }
 
-/* @keyframes teste {
-    100%{
-        top: 15px;
-    }
-} */
+@keyframes teste {
+  0% {
+    top: 0;
+  }
+
+  25% {
+    top: 7px;
+  }
+
+  50% {
+    top: 14px;
+  }
+  100% {
+    top: 28px;
+  }
+}
 
 main nav {
   display: flex;
@@ -187,7 +190,6 @@ footer {
 
 footer .footer-top {
   text-align: center;
-  /* font-weight: 700; */
 }
 
 footer .footer-top h5 {
@@ -225,4 +227,14 @@ footer .footer-bottom {
 
 .footer-bottom .social-medias h6 {
   font-size: 22px;
+}
+
+a {
+  text-decoration: none;
+}
+a.blackColor {
+  color: var(--black--);
+}
+a:not(.blackColor) {
+  color: var(--white--);
 }
