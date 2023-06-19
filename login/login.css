@@ -27,6 +27,11 @@ body {
     border-radius: 8px;
 }
 
+.form-container img {
+    width: 100%;
+    margin-bottom: 25px;
+}
+
 .form-container [type="text"],
 [type="password"] {
     padding: 5px;
