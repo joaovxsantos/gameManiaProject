@@ -246,6 +246,10 @@ a:not(.blackColor) {
     display: none;
   }
 
+  .header-top {
+    background: red;
+  }
+
   section .sec-infos {
     flex-direction: column;
   }
@@ -280,11 +284,9 @@ a:not(.blackColor) {
     top: -40px;
   }
 
-  @keyframes moove{
-    100%{
+  @keyframes moove {
+    100% {
       top: 0px;
     }
   }
-
-
 }
