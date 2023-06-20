@@ -246,10 +246,6 @@ a:not(.blackColor) {
     display: none;
   }
 
-  .header-top {
-    background: red;
-  }
-
   section .sec-infos {
     flex-direction: column;
   }
