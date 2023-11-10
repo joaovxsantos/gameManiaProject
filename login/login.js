@@ -1,6 +1,6 @@
 const button = document.querySelector('#button')
 
 
-button.addEventListener('click', () => {
-    alert('a')
+button.addEventListener('click', (e) => {
+    alert(e)
 })
